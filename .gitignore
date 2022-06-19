@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 config.py
 all_data.csv
-
+customers.csv
 # C extensions
 *.so
 
