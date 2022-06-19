@@ -5,8 +5,8 @@ __pycache__/
 config.py
 all_data.csv
 customers.csv
-etl_Copy2_GW.ipny
-import_sql_2_GW.ipny
+etl_Copy2_GW.ipynb
+import_sql_2_GW.ipynb
 # C extensions
 *.so
 
