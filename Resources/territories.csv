@@ -1,0 +1,11 @@
+,SalesTerritoryKey,Region,Country,Continent
+0,1,Northwest,United States,North America
+1,2,Northeast,United States,North America
+2,3,Central,United States,North America
+3,4,Southwest,United States,North America
+4,5,Southeast,United States,North America
+5,6,Canada,Canada,North America
+6,7,France,France,Europe
+7,8,Germany,Germany,Europe
+8,9,Australia,Australia,Pacific
+9,10,United Kingdom,United Kingdom,Europe
