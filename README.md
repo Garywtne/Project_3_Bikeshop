@@ -1,5 +1,7 @@
 # Project 3
 
+# TO BE COMPLETED
+
 # BIKE SHOP
 
 ## Team: 
