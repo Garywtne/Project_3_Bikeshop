@@ -1,14 +1,14 @@
 -- Table: public.returns
 
--- DROP TABLE IF EXISTS public.returns;
+DROP TABLE IF EXISTS public.returns;
 
 CREATE TABLE IF NOT EXISTS public.returns
 (
-    "ReturnDate" date NOT NULL,
-    "TerritoryKey" integer NOT NULL,
-    "ProductKey" integer NOT NULL,
-    "ReturnQuantity" integer NOT NULL,
-    CONSTRAINT "fk_returns_ProductKey" FOREIGN KEY ("ProductKey")
+	"ReturnDate"	TEXT NOT NULL,
+	"TerritoryKey"	INTEGER NOT NULL,
+	"ProductKey"	INTEGER NOT NULL,
+	"ReturnQuantity"	INTEGER NOT NULL,
+	CONSTRAINT "fk_returns_ProductKey" FOREIGN KEY ("ProductKey")
         REFERENCES public.products ("ProductKey") MATCH SIMPLE
         ON UPDATE NO ACTION
         ON DELETE NO ACTION,
@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS public.returns
         ON UPDATE NO ACTION
         ON DELETE NO ACTION
 )
+
 
 TABLESPACE pg_default;
 

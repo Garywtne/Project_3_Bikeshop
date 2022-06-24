@@ -1,6 +1,6 @@
 -- Table: public.customers
 
--- DROP TABLE IF EXISTS public.customers;
+DROP TABLE IF EXISTS public.customers;
 
 CREATE TABLE IF NOT EXISTS public.customers
 (
