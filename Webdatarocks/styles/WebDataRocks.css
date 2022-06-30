@@ -1,0 +1,8 @@
+#wdr-pivot-view #wdr-grid-view div[hierarchy="Business Type"][member=" Bike Shop"] {
+  background-color: #3366cc;
+}
+#wdr-pivot-view #wdr-grid-view div[hierarchy="Business Type"][member="Test2"] {
+  background-color: #dc3912;
+}
+#wdr-pivot-view #wdr-grid-view div[hierarchy="Business Type"][member="Test3"] {
+  background-color: #ff9900;}
