@@ -1,6 +1,0 @@
-df=pd.DataFrame(df)
-df.reset_index()
-df.rename(columns={'whatever': 'Quantity'},inplace=True)
-
-px.pie(df,df.index,'Quantity')
-px.bar(df, x=df.index, y='Quantity')
