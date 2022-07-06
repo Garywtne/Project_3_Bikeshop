@@ -11,7 +11,8 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     data = pd.read_csv("bmw.csv")
-    fig = px.scatter(data, x="price", y="mileage")
+    #print(data["year"])
+    fig = px.scatter(data, x="year", y="engineSize")
     plotly_figure = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     return render_template("index.html", plotly_figure=plotly_figure)
 
