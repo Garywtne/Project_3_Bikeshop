@@ -1,1 +1,0 @@
-let  searchResults = [{"Mountain-200":3481,"Road-250":1874,"Road-750":1422,"Road-550-W":1358,"Touring-1000":1233,"Road-350-W":911,"Road-150":812,"Road-650":722,"Mountain-400-W":533,"Touring-3000":530,"Mountain-500":473,"Touring-2000":361,"Mountain-100":219}];
