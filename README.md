@@ -169,6 +169,7 @@ Also made visuals on another program outside of the courses remits and created t
 we also looked at another JavaScript Library:
 
 ![image](https://user-images.githubusercontent.com/100169801/177633362-9daa9210-e75a-42a2-b4d8-4122bc988727.png)
+![image (1)](https://user-images.githubusercontent.com/100169801/177637644-e4974ddc-46c0-4a0d-bdec-f02df7a547e4.png)
 
 
 ----  END  -----
