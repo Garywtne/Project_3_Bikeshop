@@ -67,39 +67,48 @@ Saved all of the original CSV's into the Resources folder to access them from th
 
 ## Next
 
-We created database in Postgress the database is called Adventure_works and populated the tables 
+We investigated the data created database using PgAdmin called Adventure_works and populated the tables 
 
-Used a text file (bike_shop_CREATE_TABLES_LC.txt) to create the table structure for data to be added.
+Used a text file (bike_shop_CREATE_TABLES_LC.txt) we created the table structure for data to be added.
 
-Created the ERD diagrams to show design of the joins. 
+Below is a copy of the ERD plan showing our use of Primary and Foriegn Keys. 
+
+![ERD](https://user-images.githubusercontent.com/85430216/177748468-7098531c-2ab3-462e-8550-45a653dc7090.png)
 
 Created a config.py file and gitignore to protect the security of passwords and the database name
 
-![image](https://user-images.githubusercontent.com/100169801/177627722-d5838e48-e383-4a9f-beef-5101e032b633.png)
+![Config](https://user-images.githubusercontent.com/85430216/177750268-de507efa-8b1b-4f65-9b1a-ddbcb6aa84b9.PNG)
 
----
+And established a connection to the database
+
+![Connection](https://user-images.githubusercontent.com/85430216/177749939-1d968aad-2295-48f3-bca6-a310d35eb85a.PNG)
+
+We then populated the database by running the 01_Adventure_works_data_ETL notebook
 
 ![image](https://user-images.githubusercontent.com/100169801/177624270-b4c74be0-0295-4dcd-82cc-92483f9ad95b.png)
 
----
+Our queries and visualizations were created using seperate notebooks, again a connection was established using the config file.
+
+We were able to create complex joins to retrieve that data required to create our queries and visualizations
+
+![image](https://user-images.githubusercontent.com/100169801/177627722-d5838e48-e383-4a9f-beef-5101e032b633.png)
+
 
 ##### This is an image of the file structre we were using 
 
-![image](https://user-images.githubusercontent.com/100169801/177630251-f232137e-0a15-45c9-a6d1-34c6f25d86ec.png)
+![FileStructure](https://user-images.githubusercontent.com/85430216/177750419-13c58010-1513-46f7-8d92-bbc3f7c9484c.PNG)
 
-As can be seen by the image we had several versions of the different files we constantly changed and updated our work.
+The notebooks are prefixed with a number to guide thier operation and the  files and visualizations created are directed to the correct folders for thier use on the website.
 
 ## Finally 
 ---
 
-We created queries from the connection we made and produced plots which we made interactive via plotly.
-Now that the data had been converted to readable charts we worked on the webpage.
+Now the files and visualizations have been created and placed into the correct folders so that the website can be populated
 
 ---
+image of coding in the index file which was to be the homepage of our webpage.
 
-image of file structure and coding in index file which was to be the homepage of our webpage.
-
-![image](https://user-images.githubusercontent.com/100169801/177634405-3efb5790-2807-45f3-9774-377fb4f9d3e1.png)
+![Index](https://user-images.githubusercontent.com/85430216/177752613-13eaa5ec-1002-4fe0-9cc0-2b16e043f2b0.PNG)
 
 ---
 
